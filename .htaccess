@@ -26,4 +26,13 @@ RewriteCond %{HTTP_REFERER} gr5suko\.webklik\.nl [NC]
 RewriteCond %{HTTP_REFERER} free\-share\-buttons\.com [NC]
 RewriteCond %{HTTP_REFERER} hulfingtonpost\.com [NC]
 RewriteCond %{HTTP_REFERER} bycontext\.com [NC]
+RewriteCond %{HTTP_REFERER} anticrawler\.org [NC]
+RewriteCond %{HTTP_REFERER} bestwebsiteawards\.com [NC]
+RewriteCond %{HTTP_REFERER} econom\.co [NC]
+RewriteCond %{HTTP_REFERER} humanorightswatch\.org [NC]
+RewriteCond %{HTTP_REFERER} 7makemoneyonline\.com [NC]
+RewriteCond %{HTTP_REFERER} o-o-6-o-o\.com [NC]
+RewriteCond %{HTTP_REFERER} selmat\.com [NC]
+
+
 RewriteRule .* - [F]

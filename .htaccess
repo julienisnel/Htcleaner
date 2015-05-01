@@ -1,2 +1,19 @@
 RewriteEngine On
-
+# Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} blackhatworth\.com [NC]
+RewriteCond %{HTTP_REFERER} darodar\.com [NC]
+RewriteCond %{HTTP_REFERER} iloveitaly\.co [NC]
+RewriteCond %{HTTP_REFERER} ilovevitaly\.com [NC]
+RewriteCond %{HTTP_REFERER} priceg\.com [NC]
+RewriteCond %{HTTP_REFERER} free\-share\-buttons\.com [NC] 
+RewriteCond %{HTTP_REFERER} 4webmasters\.org [NC] 
+RewriteCond %{HTTP_REFERER} googlsucks\.com [NC] 
+RewriteCond %{HTTP_REFERER} theguardlan\.com [NC]
+RewriteCond %{HTTP_REFERER} addons\.mozilla\.org [NC] 
+RewriteCond %{HTTP_REFERER} social\-buttons\.com [NC]
+RewriteCond %{HTTP_REFERER} site2\.free\-share\-buttons\.com [NC]
+RewriteCond %{HTTP_REFERER} buy\-cheap\-online\.info [NC]
+RewriteCond %{HTTP_REFERER} site4\.free\-share\-buttons\.com [NC]
+RewriteCond %{HTTP_REFERER} www\.Get\-Free\-Traffic\-Now\.com [NC]
+RewriteCond %{HTTP_REFERER} webmaster\-traffic\.com [NC]
+RewriteRule .* - [F]

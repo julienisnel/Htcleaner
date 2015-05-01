@@ -25,5 +25,5 @@ RewriteCond %{HTTP_REFERER} blogs\.forum69\.info [NC]
 RewriteCond %{HTTP_REFERER} gr5suko\.webklik\.nl [NC]
 RewriteCond %{HTTP_REFERER} free\-share\-buttons\.com [NC]
 RewriteCond %{HTTP_REFERER} hulfingtonpost\.com [NC]
-
+RewriteCond %{HTTP_REFERER} bycontext\.com [NC]
 RewriteRule .* - [F]
